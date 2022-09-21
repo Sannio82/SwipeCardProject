@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13F7F3A928DB551F00265125 /* swipe_card_parking_operator_viewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3A828DB551F00265125 /* swipe_card_parking_operator_viewApp.swift */; };
+		13F7F3AB28DB551F00265125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3AA28DB551F00265125 /* ContentView.swift */; };
+		13F7F3AD28DB552000265125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F7F3AC28DB552000265125 /* Assets.xcassets */; };
+		13F7F3B028DB552000265125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F7F3AF28DB552000265125 /* Preview Assets.xcassets */; };
+		13F7F3BA28DB552100265125 /* swipe_card_parking_operator_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3B928DB552100265125 /* swipe_card_parking_operator_viewTests.swift */; };
+		13F7F3C428DB552100265125 /* swipe_card_parking_operator_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3C328DB552100265125 /* swipe_card_parking_operator_viewUITests.swift */; };
+		13F7F3C628DB552100265125 /* swipe_card_parking_operator_viewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3C528DB552100265125 /* swipe_card_parking_operator_viewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13F7F3B628DB552100265125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F7F39D28DB551F00265125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F7F3A428DB551F00265125;
+			remoteInfo = swipe_card_parking_operator_view;
+		};
+		13F7F3C028DB552100265125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F7F39D28DB551F00265125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F7F3A428DB551F00265125;
+			remoteInfo = swipe_card_parking_operator_view;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13F7F3A528DB551F00265125 /* swipe_card_parking_operator_view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swipe_card_parking_operator_view.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F7F3A828DB551F00265125 /* swipe_card_parking_operator_viewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipe_card_parking_operator_viewApp.swift; sourceTree = "<group>"; };
+		13F7F3AA28DB551F00265125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13F7F3AC28DB552000265125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13F7F3AF28DB552000265125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13F7F3B528DB552100265125 /* swipe_card_parking_operator_viewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swipe_card_parking_operator_viewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F7F3B928DB552100265125 /* swipe_card_parking_operator_viewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipe_card_parking_operator_viewTests.swift; sourceTree = "<group>"; };
+		13F7F3BF28DB552100265125 /* swipe_card_parking_operator_viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swipe_card_parking_operator_viewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F7F3C328DB552100265125 /* swipe_card_parking_operator_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipe_card_parking_operator_viewUITests.swift; sourceTree = "<group>"; };
+		13F7F3C528DB552100265125 /* swipe_card_parking_operator_viewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipe_card_parking_operator_viewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13F7F3A228DB551F00265125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F7F3B228DB552100265125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F7F3BC28DB552100265125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F7F39C28DB551F00265125 = {
+			isa = PBXGroup;
+			children = (
+				13F7F3A728DB551F00265125 /* swipe_card_parking_operator_view */,
+				13F7F3B828DB552100265125 /* swipe_card_parking_operator_viewTests */,
+				13F7F3C228DB552100265125 /* swipe_card_parking_operator_viewUITests */,
+				13F7F3A628DB551F00265125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13F7F3A628DB551F00265125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13F7F3A528DB551F00265125 /* swipe_card_parking_operator_view.app */,
+				13F7F3B528DB552100265125 /* swipe_card_parking_operator_viewTests.xctest */,
+				13F7F3BF28DB552100265125 /* swipe_card_parking_operator_viewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13F7F3A728DB551F00265125 /* swipe_card_parking_operator_view */ = {
+			isa = PBXGroup;
+			children = (
+				13F7F3A828DB551F00265125 /* swipe_card_parking_operator_viewApp.swift */,
+				13F7F3AA28DB551F00265125 /* ContentView.swift */,
+				13F7F3AC28DB552000265125 /* Assets.xcassets */,
+				13F7F3AE28DB552000265125 /* Preview Content */,
+			);
+			path = swipe_card_parking_operator_view;
+			sourceTree = "<group>";
+		};
+		13F7F3AE28DB552000265125 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13F7F3AF28DB552000265125 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13F7F3B828DB552100265125 /* swipe_card_parking_operator_viewTests */ = {
+			isa = PBXGroup;
+			children = (
+				13F7F3B928DB552100265125 /* swipe_card_parking_operator_viewTests.swift */,
+			);
+			path = swipe_card_parking_operator_viewTests;
+			sourceTree = "<group>";
+		};
+		13F7F3C228DB552100265125 /* swipe_card_parking_operator_viewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13F7F3C328DB552100265125 /* swipe_card_parking_operator_viewUITests.swift */,
+				13F7F3C528DB552100265125 /* swipe_card_parking_operator_viewUITestsLaunchTests.swift */,
+			);
+			path = swipe_card_parking_operator_viewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13F7F3A428DB551F00265125 /* swipe_card_parking_operator_view */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F7F3C928DB552100265125 /* Build configuration list for PBXNativeTarget "swipe_card_parking_operator_view" */;
+			buildPhases = (
+				13F7F3A128DB551F00265125 /* Sources */,
+				13F7F3A228DB551F00265125 /* Frameworks */,
+				13F7F3A328DB551F00265125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swipe_card_parking_operator_view;
+			productName = swipe_card_parking_operator_view;
+			productReference = 13F7F3A528DB551F00265125 /* swipe_card_parking_operator_view.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13F7F3B428DB552100265125 /* swipe_card_parking_operator_viewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F7F3CC28DB552100265125 /* Build configuration list for PBXNativeTarget "swipe_card_parking_operator_viewTests" */;
+			buildPhases = (
+				13F7F3B128DB552100265125 /* Sources */,
+				13F7F3B228DB552100265125 /* Frameworks */,
+				13F7F3B328DB552100265125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F7F3B728DB552100265125 /* PBXTargetDependency */,
+			);
+			name = swipe_card_parking_operator_viewTests;
+			productName = swipe_card_parking_operator_viewTests;
+			productReference = 13F7F3B528DB552100265125 /* swipe_card_parking_operator_viewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13F7F3BE28DB552100265125 /* swipe_card_parking_operator_viewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F7F3CF28DB552100265125 /* Build configuration list for PBXNativeTarget "swipe_card_parking_operator_viewUITests" */;
+			buildPhases = (
+				13F7F3BB28DB552100265125 /* Sources */,
+				13F7F3BC28DB552100265125 /* Frameworks */,
+				13F7F3BD28DB552100265125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F7F3C128DB552100265125 /* PBXTargetDependency */,
+			);
+			name = swipe_card_parking_operator_viewUITests;
+			productName = swipe_card_parking_operator_viewUITests;
+			productReference = 13F7F3BF28DB552100265125 /* swipe_card_parking_operator_viewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13F7F39D28DB551F00265125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					13F7F3A428DB551F00265125 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					13F7F3B428DB552100265125 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 13F7F3A428DB551F00265125;
+					};
+					13F7F3BE28DB552100265125 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 13F7F3A428DB551F00265125;
+					};
+				};
+			};
+			buildConfigurationList = 13F7F3A028DB551F00265125 /* Build configuration list for PBXProject "swipe_card_parking_operator_view" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13F7F39C28DB551F00265125;
+			productRefGroup = 13F7F3A628DB551F00265125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F7F3A428DB551F00265125 /* swipe_card_parking_operator_view */,
+				13F7F3B428DB552100265125 /* swipe_card_parking_operator_viewTests */,
+				13F7F3BE28DB552100265125 /* swipe_card_parking_operator_viewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13F7F3A328DB551F00265125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F7F3B028DB552000265125 /* Preview Assets.xcassets in Resources */,
+				13F7F3AD28DB552000265125 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F7F3B328DB552100265125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F7F3BD28DB552100265125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13F7F3A128DB551F00265125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F7F3AB28DB551F00265125 /* ContentView.swift in Sources */,
+				13F7F3A928DB551F00265125 /* swipe_card_parking_operator_viewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F7F3B128DB552100265125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F7F3BA28DB552100265125 /* swipe_card_parking_operator_viewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F7F3BB28DB552100265125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F7F3C428DB552100265125 /* swipe_card_parking_operator_viewUITests.swift in Sources */,
+				13F7F3C628DB552100265125 /* swipe_card_parking_operator_viewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13F7F3B728DB552100265125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F7F3A428DB551F00265125 /* swipe_card_parking_operator_view */;
+			targetProxy = 13F7F3B628DB552100265125 /* PBXContainerItemProxy */;
+		};
+		13F7F3C128DB552100265125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F7F3A428DB551F00265125 /* swipe_card_parking_operator_view */;
+			targetProxy = 13F7F3C028DB552100265125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13F7F3C728DB552100265125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13F7F3C828DB552100265125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13F7F3CA28DB552100265125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swipe_card_parking_operator_view/Preview Content\"";
+				DEVELOPMENT_TEAM = UJR5WV24MA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.iths.swipe-card-parking-operator-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13F7F3CB28DB552100265125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swipe_card_parking_operator_view/Preview Content\"";
+				DEVELOPMENT_TEAM = UJR5WV24MA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.iths.swipe-card-parking-operator-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13F7F3CD28DB552100265125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJR5WV24MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.iths.swipe-card-parking-operator-viewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swipe_card_parking_operator_view.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swipe_card_parking_operator_view";
+			};
+			name = Debug;
+		};
+		13F7F3CE28DB552100265125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJR5WV24MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.iths.swipe-card-parking-operator-viewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swipe_card_parking_operator_view.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swipe_card_parking_operator_view";
+			};
+			name = Release;
+		};
+		13F7F3D028DB552100265125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJR5WV24MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.iths.swipe-card-parking-operator-viewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swipe_card_parking_operator_view;
+			};
+			name = Debug;
+		};
+		13F7F3D128DB552100265125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJR5WV24MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.iths.swipe-card-parking-operator-viewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swipe_card_parking_operator_view;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F7F3A028DB551F00265125 /* Build configuration list for PBXProject "swipe_card_parking_operator_view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F7F3C728DB552100265125 /* Debug */,
+				13F7F3C828DB552100265125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F7F3C928DB552100265125 /* Build configuration list for PBXNativeTarget "swipe_card_parking_operator_view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F7F3CA28DB552100265125 /* Debug */,
+				13F7F3CB28DB552100265125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F7F3CC28DB552100265125 /* Build configuration list for PBXNativeTarget "swipe_card_parking_operator_viewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F7F3CD28DB552100265125 /* Debug */,
+				13F7F3CE28DB552100265125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F7F3CF28DB552100265125 /* Build configuration list for PBXNativeTarget "swipe_card_parking_operator_viewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F7F3D028DB552100265125 /* Debug */,
+				13F7F3D128DB552100265125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13F7F39D28DB551F00265125 /* Project object */;
+}
