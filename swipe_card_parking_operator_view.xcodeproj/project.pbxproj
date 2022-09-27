@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130120B428E323BF00F1AEA1 /* popUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130120B328E323BF00F1AEA1 /* popUpViewModel.swift */; };
 		13F7F3A928DB551F00265125 /* swipe_card_parking_operator_viewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3A828DB551F00265125 /* swipe_card_parking_operator_viewApp.swift */; };
 		13F7F3AB28DB551F00265125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3AA28DB551F00265125 /* ContentView.swift */; };
 		13F7F3AD28DB552000265125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F7F3AC28DB552000265125 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		130120B328E323BF00F1AEA1 /* popUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpViewModel.swift; sourceTree = "<group>"; };
 		13F7F3A528DB551F00265125 /* swipe_card_parking_operator_view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swipe_card_parking_operator_view.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F7F3A828DB551F00265125 /* swipe_card_parking_operator_viewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipe_card_parking_operator_viewApp.swift; sourceTree = "<group>"; };
 		13F7F3AA28DB551F00265125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				13F7F3A828DB551F00265125 /* swipe_card_parking_operator_viewApp.swift */,
+				130120B328E323BF00F1AEA1 /* popUpViewModel.swift */,
 				13F7F3DA28DDDF1A00265125 /* swipeActionView.swift */,
 				13F7F3D228DB5E4900265125 /* sheetView.swift */,
 				13F7F3AA28DB551F00265125 /* ContentView.swift */,
@@ -269,6 +272,7 @@
 				13F7F3AB28DB551F00265125 /* ContentView.swift in Sources */,
 				13F7F3D328DB5E4900265125 /* sheetView.swift in Sources */,
 				13F7F3DB28DDDF1A00265125 /* swipeActionView.swift in Sources */,
+				130120B428E323BF00F1AEA1 /* popUpViewModel.swift in Sources */,
 				13F7F3D728DDAECC00265125 /* SwipeViewTwo.swift in Sources */,
 				13F7F3A928DB551F00265125 /* swipe_card_parking_operator_viewApp.swift in Sources */,
 			);
