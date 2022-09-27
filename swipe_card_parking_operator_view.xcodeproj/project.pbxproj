@@ -14,6 +14,9 @@
 		13F7F3BA28DB552100265125 /* swipe_card_parking_operator_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3B928DB552100265125 /* swipe_card_parking_operator_viewTests.swift */; };
 		13F7F3C428DB552100265125 /* swipe_card_parking_operator_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3C328DB552100265125 /* swipe_card_parking_operator_viewUITests.swift */; };
 		13F7F3C628DB552100265125 /* swipe_card_parking_operator_viewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3C528DB552100265125 /* swipe_card_parking_operator_viewUITestsLaunchTests.swift */; };
+		13F7F3D328DB5E4900265125 /* sheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3D228DB5E4900265125 /* sheetView.swift */; };
+		13F7F3D728DDAECC00265125 /* SwipeViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3D628DDAECC00265125 /* SwipeViewTwo.swift */; };
+		13F7F3DB28DDDF1A00265125 /* swipeActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F7F3DA28DDDF1A00265125 /* swipeActionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		13F7F3BF28DB552100265125 /* swipe_card_parking_operator_viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swipe_card_parking_operator_viewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F7F3C328DB552100265125 /* swipe_card_parking_operator_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipe_card_parking_operator_viewUITests.swift; sourceTree = "<group>"; };
 		13F7F3C528DB552100265125 /* swipe_card_parking_operator_viewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipe_card_parking_operator_viewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13F7F3D228DB5E4900265125 /* sheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheetView.swift; sourceTree = "<group>"; };
+		13F7F3D628DDAECC00265125 /* SwipeViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewTwo.swift; sourceTree = "<group>"; };
+		13F7F3DA28DDDF1A00265125 /* swipeActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipeActionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				13F7F3A828DB551F00265125 /* swipe_card_parking_operator_viewApp.swift */,
+				13F7F3DA28DDDF1A00265125 /* swipeActionView.swift */,
+				13F7F3D228DB5E4900265125 /* sheetView.swift */,
 				13F7F3AA28DB551F00265125 /* ContentView.swift */,
+				13F7F3D628DDAECC00265125 /* SwipeViewTwo.swift */,
 				13F7F3AC28DB552000265125 /* Assets.xcassets */,
 				13F7F3AE28DB552000265125 /* Preview Content */,
 			);
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13F7F3AB28DB551F00265125 /* ContentView.swift in Sources */,
+				13F7F3D328DB5E4900265125 /* sheetView.swift in Sources */,
+				13F7F3DB28DDDF1A00265125 /* swipeActionView.swift in Sources */,
+				13F7F3D728DDAECC00265125 /* SwipeViewTwo.swift in Sources */,
 				13F7F3A928DB551F00265125 /* swipe_card_parking_operator_viewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
