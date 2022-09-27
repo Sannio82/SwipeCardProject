@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct sheetView: View {
+    @Environment(\.dismiss) var dismiss
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 10) {
+            Text("Här är informationen om laddarna! Bland annat så finns det också mer info här: https://trello.com/b/ks69ZNzu/app-20 ")
+                .lineLimit(50)
+                .padding(30)
+                .underline()
+            Text("Stäng")
+                .onTapGesture {
+                    dismiss()
+                }
+                .frame(alignment: .trailing)
+                .padding(.top, 30)
+        }
     }
 }
 

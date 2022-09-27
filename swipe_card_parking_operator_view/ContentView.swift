@@ -8,14 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var numbers = [1,3,4,5,6]
+    @State private var currentNumber = 1
+    @State private var showingSheet = false
+    
+    @State var nativeAlert = false
+    @State var customAlert = false
+    @State var HUD = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            List{
+                ForEach(numbers, id: \.self) {
+                    Text("\($0)")
+                        .listRowSeparator(.hidden)
+                        .frame(width: 300, height: 300)
+                        .background(Color.blue)
+                        .swipeActions(edge: .trailing) {
+                            Button {
+                                alertView()
+//                                                                showingSheet.toggle()
+                            } label: {
+                                Image(systemName: "info.circle")
+                                    .background(Color.gray)
+                            }
+                        }
+                }
+            }
+            .scrollContentBackground(.hidden)
         }
-        .padding()
+        .sheet(isPresented: $showingSheet) {
+            sheetView()
+        }
     }
 }
 
