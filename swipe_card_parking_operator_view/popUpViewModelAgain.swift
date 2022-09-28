@@ -11,11 +11,11 @@ import SwiftUI
 func alertView() {
     let alert = UIAlertController(title: "Update", message: "There is a new update available, will you update?", preferredStyle: .alert)
     
-    let update = UIAlertAction(title: "Update", style: .default) {
-        (_) in
+    let update = UIAlertAction(title: "Update", style: .default) {_ in
+        print("update")
     }
-    let cancel = UIAlertAction(title: "Cancel", style: .destructive) {
-        (_) in
+    let cancel = UIAlertAction(title: "Cancel", style: .destructive) {_ in 
+        print("cancel")
     }
     alert.addAction(update)
     
@@ -24,4 +24,5 @@ func alertView() {
     UIApplication.shared.windows.first?.rootViewController?.present(alert, animated: true, completion: {
         
     })
+ 
 }

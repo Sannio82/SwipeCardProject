@@ -11,7 +11,7 @@ import SwiftUI
 struct swipe_card_parking_operator_viewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+                ContentView()
         }
     }
 }
